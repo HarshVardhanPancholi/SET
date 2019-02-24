@@ -1,1 +1,122 @@
+/* Basic rules */
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color:#f2f2f2;
+  text-align:center;
+  border-bottom: 5px solid #8080ff;
+  border-right: 5px groove #8080ff;
+  border-left: 5px groove #8080ff;
+  border-top: 5px groove #8080ff;
+  width:200px;
+}
 
+body{
+	background:#00001a;
+}
+section {
+	border: 5px groove white;
+  background: #9999ff;
+  width: 70%;
+  height: 150px;
+  font-family: Tahoma , san-serif;
+  color: black;
+    padding-top:50px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.planet {
+	border:2px solid black;
+	background: #ccefff ;
+	color: black;
+	text-align: center;
+	width:100px;
+	font-size:25px;
+	position: absolute;
+     right: 0;
+	 top:0;
+}
+
+.star{
+	border: 2px solid black;
+	background: #ccefff ;
+	color: black;
+	text-align: center;
+	width:100px;
+	font-size:25px;
+	position: absolute;
+      right: 0;
+	   top:0;
+}
+
+.moon{
+	border: 2px solid black;
+	background: #ccefff ;
+	color: black;
+	text-align: center;
+	width:100px;
+	font-size:25px;
+	position: absolute;
+    right: 0;
+	 top:0;
+}
+
+/* Responsive rules */
+.solar {
+  width: 100%;
+}
+
+/* Desktop only */
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  section{
+  margin-left:50px;
+  margin-top:100px;}
+}
+
+/* Tablet only */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+	 position: relative;
+     left: 7%;
+	 top:20%;
+     bottom:10%;	 
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 121.5%;
+  }
+  section{
+  margin-top:50px;}
+}
+
+/* Mobile only */
+@media (max-width: 767px) {
+  .col-sm-12 {
+	position: relative;
+     left: 15%;
+	 top:20%;
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  section{
+  height:120px;
+  margin-top:30px;}
+}
