@@ -1,0 +1,157 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #ffffcc;
+  font-family: 'Oxygen', sans-serif;
+  box-sizing:border-box;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #cc0000;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-header{ padding-bottom:10px;}
+.navbar-brand {
+  padding-top: 25px;
+ 
+}
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #ffffb3;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list {
+  color:  #ffffb3  ;
+  text-align: center;
+}
+#nav-list :hover {
+  background:#ff8080;
+}
+#nav-list  span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+#pg-heading {
+    margin-top: 5px;
+    font-size: 1.4em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+	font-family:bold;
+  }
+
+ .container-fluid #chicken1{
+    margin-top: 30px;
+    padding: 10px;
+	background-color:#ffff99;
+ color:grey;
+   box-shadow: 2px 5px;
+  
+   height:100%;
+   }
+ .container-fluid #beef1{
+	 
+	 font-family:bold;
+	 font-size: 1.3em;
+    letter-spacing: .1em;
+	color:#666666;
+ }
+ .container-fluid #chicken2{
+    margin-top: 30px;
+    padding: 0;
+	background-color:#ffff99;
+ color:grey;
+   box-shadow: 2px 5px;
+  
+   height:100%;}
+ .container-fluid #beef2{
+	 
+	 font-family:bold;
+	 font-size: 1.3em;
+    letter-spacing: .1em;
+	color:#666666;
+ }
+ .container-fluid #chicken3{
+    margin-top: 30px;
+    padding: 0;
+	background-color:#ffff99;
+ color:grey;
+   box-shadow: 2px 5px;
+   
+   height:100%;
+}
+ .container-fluid #beef3{
+	 
+	 font-family:bold;
+	 font-size: 1.3em;
+    letter-spacing: .1em;
+	color:#666666;
+ }
+ #content{
+	 padding:10px;
+ }
+ 
+
+@media (max-width: 767px) {
+  /* Header */
+ #collapsable-nav  { 
+    font-size: 1.2em;
+		background-color:#ff6666;
+  }
+  #collapsable-nav  span { 
+    font-size: 1em;
+    margin-right: 5px;
+	padding:7px;
+
+  }
+  
+ .container-fluid #chicken1{
+       width:90%;
+   
+   margin-left:22px;}
+ .container-fluid #beef1{
+font-size: 1em;
+ }
+ .container-fluid #chicken2{
+      width:90%;
+   
+   margin-left:22px;}
+ .container-fluid #beef2{
+	 
+	font-size: 1em;
+ }
+ .container-fluid #chicken3{
+    width:90%;
+   clear:both;
+   margin-left:20px;
+ }
+	
+ .container-fluid #beef3{
+	 
+	 font-size: 1em;
+  
+ }
+ #content{
+	 font-size: .8em;
+ }
+}
